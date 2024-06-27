@@ -1,0 +1,24 @@
+.search-box{  
+    outline: none;
+    padding: 10px;
+    width: 550px;
+    line-height: 30PX;
+    margin-bottom: 30px;
+
+}
+@media (max-width: 480px) {
+    .search-box{
+        width: 200px;
+        line-height: 15PX;
+        margin-bottom: 15px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .search-box{
+        width: 400px;
+        line-height: 15PX;
+        margin-bottom: 15px;
+    }
+    
+  }
